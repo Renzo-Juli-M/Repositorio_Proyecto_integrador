@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\ApartmentMain;
 use App\Livewire\CategoryMain;
 use Illuminate\Support\Facades\Route;
 
@@ -26,5 +27,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
     Route::get('/categories', CategoryMain::class)->name('categories');
+    Route::get('/admin', ApartmentMain::class)->name('admin');
+
 });

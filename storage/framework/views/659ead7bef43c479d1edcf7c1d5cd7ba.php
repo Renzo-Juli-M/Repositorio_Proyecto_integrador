@@ -15,7 +15,7 @@
         </h2>
      <?php $__env->endSlot(); ?>
 
-    <div class="py-12">
+    <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <?php if (isset($component)) { $__componentOriginal791d26948561d5a0da3d85fee400a7b6 = $component; } ?>

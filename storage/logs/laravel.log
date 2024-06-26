@@ -1940,3 +1940,7 @@ Did you mean one of these?
 [stacktrace]
 #0 {main}
 "} 
+[2024-06-25 04:07:33] local.ERROR: syntax error, unexpected token "-", expecting "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"-\", expecting \"{\" at K:\\LP2 Proyecto integrador\\LARAVEL\\alquiler\\app\\Models\\Product-m.php:8)
+[stacktrace]
+#0 {main}
+"} 

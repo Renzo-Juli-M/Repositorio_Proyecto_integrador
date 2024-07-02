@@ -1,16 +1,21 @@
 <?php return array (
-  'laravel/fortify' => 
+  'barryvdh/laravel-dompdf' => 
   array (
     'providers' => 
     array (
-      0 => 'Laravel\\Fortify\\FortifyServiceProvider',
+      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Pdf' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
     ),
   ),
-  'laravel/jetstream' => 
+  'ibex/crud-generator' => 
   array (
     'providers' => 
     array (
-      0 => 'Laravel\\Jetstream\\JetstreamServiceProvider',
+      0 => 'Ibex\\CrudGenerator\\CrudServiceProvider',
     ),
   ),
   'laravel/sail' => 
@@ -34,15 +39,23 @@
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
-  'livewire/livewire' => 
+  'laravel/ui' => 
   array (
     'providers' => 
     array (
-      0 => 'Livewire\\LivewireServiceProvider',
+      0 => 'Laravel\\Ui\\UiServiceProvider',
+    ),
+  ),
+  'laravelcollective/html' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Collective\\Html\\HtmlServiceProvider',
     ),
     'aliases' => 
     array (
-      'Livewire' => 'Livewire\\Livewire',
+      'Form' => 'Collective\\Html\\FormFacade',
+      'Html' => 'Collective\\Html\\HtmlFacade',
     ),
   ),
   'nesbot/carbon' => 
@@ -75,6 +88,13 @@
     'aliases' => 
     array (
       'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+  ),
+  'spatie/laravel-permission' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Permission\\PermissionServiceProvider',
     ),
   ),
 );

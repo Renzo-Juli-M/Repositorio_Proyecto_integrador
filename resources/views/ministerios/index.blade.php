@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="content" style="margin-left: 20px">
-        <h1>Listado de ministerios</h1>
+        <h1>Listado de inquilinos</h1>
 
         @if($message = Session::get('mensaje'))
             <script>
@@ -19,10 +19,10 @@
             <div class="col-md-12">
                 <div class="card card-outline card-primary">
                     <div class="card-header">
-                        <h3 class="card-title"><b>Ministerios registrados</b></h3>
+                        <h3 class="card-title"><b> registrados</b></h3>
                         <div class="card-tools">
                             <a href="{{url('/ministerios/create')}}" class="btn btn-primary">
-                                <i class="bi bi-file-plus"></i> Agregar nuevo ministerio
+                                <i class="bi bi-file-plus"></i> Agregar nuevo
                             </a>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                             <thead>
                             <tr>
                                 <th>Nro</th>
-                                <th>Nombre del ministerio</th>
+                                <th>Nombre</th>
                                 <th>Descripción</th>
                                 <th>Estado</th>
                                 <th>Fecha de ingreso</th>

@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 /* app.css */
 body {
     background-color: #f0f8ff;
@@ -53,3 +54,5 @@ body {
 .text-md-end {
     text-align: right;
 }
+=======
+>>>>>>> 94bf8d612bf3bc773a1569486983efb722cd191e

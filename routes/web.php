@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AsistenciaController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\OfferController;
+<<<<<<< HEAD
 use App\Http\Controllers\ReservaController;
 use App\Http\Controllers\ApartadoController;
 use App\Http\Controllers\OfertaController;
@@ -13,6 +14,8 @@ Route::get('/ofertas', [OfertaController::class, 'index'])->name('ofertas.index'
 Route::post('/apartar', [ApartadoController::class, 'apartar'])->name('apartar');
 
 Route::post('/reservar', [ReservaController::class, 'reservar'])->name('reservar');
+=======
+>>>>>>> 94bf8d612bf3bc773a1569486983efb722cd191e
 
 Route::get('/', [App\Http\Controllers\AdminController::class, 'index'])->name('index')->middleware('auth');
 Route::get('/asistencias/reportes', [AsistenciaController::class, 'reportes'])->name('reportes')->middleware('auth');

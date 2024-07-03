@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Models\Apartamento;
+=======
+>>>>>>> 94bf8d612bf3bc773a1569486983efb722cd191e
 use Illuminate\Http\Request;
 use App\Models\Offer;
 use Illuminate\Support\Facades\Storage;

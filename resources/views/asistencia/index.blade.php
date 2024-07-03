@@ -11,12 +11,12 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                Listado de asistencias
+                                Listado de Inquilinos
                             </span>
 
                              <div class="float-right">
                                 <a href="{{ route('asistencias.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  Crear nueva asistencia
+                                  Crear nuevo Inquilino
                                 </a>
                               </div>
                         </div>
@@ -33,9 +33,9 @@
                                 <thead class="thead">
                                     <tr>
                                         <th>No</th>
-                                        
+
 										<th>Fecha</th>
-										<th>Nombres y apellidos del Miembro</th>
+										<th>Nombres y apellidos </th>
 
                                         <th>Acciones</th>
                                     </tr>
@@ -44,7 +44,7 @@
                                     @foreach ($asistencias as $asistencia)
                                         <tr>
                                             <td>{{ ++$i }}</td>
-                                            
+
 											<td>{{ $asistencia->fecha }}</td>
 											<td>{{ $asistencia->miembro->nombre_apellido }}</td>
 

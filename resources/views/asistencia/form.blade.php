@@ -1,6 +1,6 @@
 <div class="box box-info padding-1">
     <div class="box-body">
-        
+
         <div class="form-group">
             {{ Form::label('fecha') }}
             {{ Form::date('fecha', $asistencia->fecha, ['class' => 'form-control' . ($errors->has('fecha') ? ' is-invalid' : ''), 'placeholder' => 'Fecha']) }}
@@ -14,6 +14,6 @@
 
     </div>
     <div class="box-footer mt20">
-        <button type="submit" class="btn btn-primary">Guardar Asistencia</button>
+        <button type="submit" class="btn btn-primary">Guardar Inquilino</button>
     </div>
 </div>

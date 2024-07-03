@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="content" style="margin-left: 20px">
-        <h1>Ministerio: {{$ministerio->nombre_ministerio}}</h1><br>
+        <h1>Departamento: {{$ministerio->nombre_ministerio}}</h1><br>
 
 
 
@@ -20,7 +20,7 @@
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group">
-                                                <label for="">Nombre del ministerio</label>
+                                                <label for="">Nombre </label>
                                                 <input type="text" name="nombre_ministerio" value="{{$ministerio->nombre_ministerio}}" class="form-control" disabled>
                                             </div>
                                         </div>

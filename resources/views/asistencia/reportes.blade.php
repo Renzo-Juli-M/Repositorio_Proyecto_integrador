@@ -10,7 +10,7 @@
                     <div class="card-header">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <span id="card_title">
-                                Reporte de asistencias
+                                Reporte de Inquilinos
                             </span>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                                     </span>
                                     <div class="info-box-content">
                                         <span class="info-box-text">Imprimir reporte</span>
-                                        <span class="info-box-number">Asistencias</span>
+                                        <span class="info-box-number">Lista de Inquilinos</span>
                                     </div>
                                 </div>
                             </div>

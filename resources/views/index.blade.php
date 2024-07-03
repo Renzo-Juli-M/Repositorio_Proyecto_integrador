@@ -15,7 +15,7 @@
                             <?php $contador_de_ministerio = $contador_de_ministerio + 1; ?>
                         @endforeach
                         <h3><?=$contador_de_ministerio;?></h3>
-                        <p>Ministerios</p>
+                        <p>Departamentos</p>
                     </div>
                     <div class="icon">
                         <i class="bi bi-building-check"></i>
@@ -33,7 +33,7 @@
                             <?php $contador_de_miembros = $contador_de_miembros + 1; ?>
                         @endforeach
                         <h3><?=$contador_de_miembros;?></h3>
-                        <p>Miembros</p>
+                        <p>inquilinos</p>
                     </div>
                     <div class="icon">
                         <i class="bi bi-file-earmark-person"></i>

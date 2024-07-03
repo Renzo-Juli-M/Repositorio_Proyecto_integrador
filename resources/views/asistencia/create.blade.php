@@ -10,7 +10,7 @@
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title">Creación de Asistencias</span>
+                        <span class="card-title">Lista de Inquilinos</span>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('asistencias.store') }}"  role="form" enctype="multipart/form-data">

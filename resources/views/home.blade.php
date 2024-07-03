@@ -20,4 +20,8 @@
         </div>
     </div>
 </div>
+<div class="container mt-5">
+    <h1>Dashboard de Administrador</h1>
+    <p>Bienvenido al panel de administración.</p>
+</div>
 @endsection

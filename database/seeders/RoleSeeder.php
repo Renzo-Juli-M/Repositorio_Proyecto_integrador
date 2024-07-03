@@ -21,8 +21,9 @@ class RoleSeeder extends Seeder
 
         $admin = Role::create(['name' => 'admin']);
         $secretaria = Role::create(['name' => 'secretaria']);
+        $cliente = Role::create(['name' => 'cliente']);
 
-        Permission::create(['name' => 'index'])->syncRoles([$admin,$secretaria]);
+        Permission::create(['name' => 'index'])->syncRoles([$admin,$secretaria,$cliente]);
         Permission::create(['name' => 'reportes'])->syncRoles([$admin, $secretaria]);
         Permission::create(['name' => 'pdf'])->syncRoles([$admin, $secretaria]);
         Permission::create(['name' => 'pdf_fechas'])->syncRoles([$admin, $secretaria]);
@@ -32,8 +33,27 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'usuarios'])->syncRoles([$admin]);
         Permission::create(['name' => 'asistencias'])->syncRoles([$admin,$secretaria]);
 
-        User::find(1)->assignRole($admin);
-        User::find(2)->assignRole($secretaria);
+        $admin = Role::findByName('admin');
+        $secretaria = Role::findByName('secretaria');
+        $cliente = Role::findByName('cliente');
+
+        Permission::create(['name' => 'asistencias'])->syncRoles([$admin, $secretaria]);
+
+        $user1 = User::find(1);
+        if ($user1) {
+            $user1->assignRole($admin);
+        }
+
+        $user2 = User::find(2);
+        if ($user2) {
+            $user2->assignRole($secretaria);
+        }
+
+        $user3 = User::find(3);
+        if ($user3) {
+            $user3->assignRole($cliente);
+        }
+
 
     }
 }

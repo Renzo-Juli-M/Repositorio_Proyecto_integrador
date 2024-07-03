@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="content" style="margin-left: 20px">
-        <h1>Creación de un nuevo ministerio</h1><br>
+        <h1>Creación de un nuevo inquilino</h1><br>
 
 
         @foreach($errors->all() as $error)
@@ -27,7 +27,7 @@
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group">
-                                                <label for="">Nombre del ministerio</label><b>*</b>
+                                                <label for="">Nombre</label><b>*</b>
                                                 <input type="text" name="nombre_ministerio" value="{{old('nombre_ministerio')}}" class="form-control" required>
                                             </div>
                                         </div>
@@ -48,7 +48,7 @@
                                                 </script>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
 

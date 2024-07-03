@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SISTEMA DE CONTROL DE ASISTENCIA</title>
+    <title>SISTEMA DE ALQUILER DE DEPARTAMENTOS</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -44,7 +44,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="{{url('/')}}" class="nav-link">SISTEMA DE CONTROL DE ASISTENCIA</a>
+                <a href="{{url('/')}}" class="nav-link">SISTEMA DE ALQUILER DE DEPARTAMENTOS</a>
             </li>
         </ul>
 
@@ -81,33 +81,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
-                        <div class="media">
-                            <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-                            <div class="media-body">
-                                <h3 class="dropdown-item-title">
-                                    Brad Diesel
-                                    <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                                </h3>
-                                <p class="text-sm">Call me whenever you can...</p>
-                                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                            </div>
-                        </div>
+
                         <!-- Message End -->
                     </a>
                     <div class="dropdown-divider"></div>
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
-                        <div class="media">
-                            <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                            <div class="media-body">
-                                <h3 class="dropdown-item-title">
-                                    John Pierce
-                                    <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                                </h3>
-                                <p class="text-sm">I got your message bro</p>
-                                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                            </div>
-                        </div>
+
                         <!-- Message End -->
                     </a>
                     <div class="dropdown-divider"></div>
@@ -176,7 +156,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Brand Logo -->
         <a href="{{url('/')}}" class="brand-link">
             <img src="{{url('/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">SIS CONTROL</span>
+            <span class="brand-text font-weight-light">SIS DEPARTAMENTO</span>
         </a>
 
         <!-- Sidebar -->
@@ -236,7 +216,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <i class="bi bi-building"></i>
                             </i>
                             <p>
-                                Ministerios
+                                Departamentos
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -244,13 +224,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <li class="nav-item">
                                 <a href="{{url('ministerios/create')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Nuevo ministerio</p>
+                                    <p>Nuevo inquilino</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{url('ministerios')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de ministerios</p>
+                                    <p>Listado de inquilino</p>
                                 </a>
                             </li>
                         </ul>
@@ -293,7 +273,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <i class="bi bi-calendar2-week"></i>
                             </i>
                             <p>
-                                Asistencias
+                                Inquilino
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -301,13 +281,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <li class="nav-item">
                                 <a href="{{url('asistencias/create')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Nueva asistencia</p>
+                                    <p>Nueva </p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{url('asistencias')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de asistencias</p>
+                                    <p>Listado </p>
                                 </a>
                             </li>
                         </ul>
@@ -328,7 +308,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <li class="nav-item">
                                 <a href="{{url('asistencias/reportes')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Asistencias</p>
+                                    <p>Inquilino</p>
                                 </a>
                             </li>
                         </ul>
@@ -373,7 +353,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Control sidebar content goes here -->
         <div class="p-3">
             <h5>Title</h5>
-            <p>Sidebar content</p>
+            <p>Departamentos</p>
         </div>
     </aside>
     <!-- /.control-sidebar -->
